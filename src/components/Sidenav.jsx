@@ -55,7 +55,10 @@ const Sidenav = () => {
             <AiOutlineMenu onClick={handleNav} className="md:hidden" />
          </div>
          {nav ? (
-            <div className="fixed w-full h-screen bg-white/80 flex flex-col justify-center items-center gap-4 z-20 md:hidden">
+            <div
+               className="fixed w-full h-screen bg-white/80 flex flex-col justify-center items-center gap-4 z-20 md:hidden"
+               onClick={handleNav}
+            >
                {links.map(link => (
                   <a
                      href={link.path}
