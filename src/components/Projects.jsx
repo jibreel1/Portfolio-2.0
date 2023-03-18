@@ -66,6 +66,7 @@ const Projects = () => {
                >
                   <img
                      className="rounded-xl group-hover:opacity-10 h-[250px] object-cover w-full object-top"
+                     loading="lazy"
                      src={project.img}
                      alt={project.title}
                   />
