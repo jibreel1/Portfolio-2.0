@@ -36,7 +36,7 @@ const About = () => {
                   </a>{" "}
                   or view{" "}
                   <a
-                     href="https://drive.google.com/file/d/1Omxmnbg22TCxxcRkVspgBxP284c8L3t5/view?usp=sharing"
+                     href="https://drive.google.com/file/d/1FYS1Ri0cbNL-krl4Vvt1EauZQocLcIlW/view?usp=sharing"
                      className="font-semibold px-2 py-1 bg-gray-200 text-gray-700 rounded-lg"
                      target="_blank"
                   >

@@ -6,6 +6,7 @@ import {
    SiRedux,
    SiGithub,
    SiMui,
+   SiTypescript,
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 import { FaReact, FaSass } from "react-icons/fa";
@@ -14,13 +15,14 @@ const Skills = () => {
    const skillsData = [
       { id: "1", name: "Javascript", icon: <DiJavascript1 size={20} /> },
       { id: "2", name: "React", icon: <FaReact size={20} /> },
-      { id: "3", name: "Firebase", icon: <SiFirebase size={20} /> },
-      { id: "4", name: "Material UI", icon: <SiMui size={20} /> },
-      { id: "5", name: "Tailwind CSS", icon: <SiTailwindcss size={20} /> },
-      { id: "6", name: "SASS", icon: <FaSass size={20} /> },
-      { id: "7", name: "Redux", icon: <SiRedux size={20} /> },
-      { id: "8", name: "Graphql", icon: <SiGraphql size={20} /> },
-      { id: "9", name: "Git/Github", icon: <SiGithub size={20} /> },
+      { id: "3", name: "TypeScript", icon: <SiTypescript size={20} /> },
+      { id: "4", name: "Firebase", icon: <SiFirebase size={20} /> },
+      { id: "5", name: "Material UI", icon: <SiMui size={20} /> },
+      { id: "6", name: "Tailwind CSS", icon: <SiTailwindcss size={20} /> },
+      { id: "7", name: "SASS", icon: <FaSass size={20} /> },
+      { id: "8", name: "Redux", icon: <SiRedux size={20} /> },
+      { id: "9", name: "Graphql", icon: <SiGraphql size={20} /> },
+      { id: "10", name: "Git/Github", icon: <SiGithub size={20} /> },
    ];
    return (
       <div id="skills" className="flex-1 pt-12 md:pt-0">
